@@ -6,7 +6,6 @@ import java.awt.GraphicsEnvironment;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Style;
@@ -43,14 +42,11 @@ public class Editor extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         DefaultMutableTreeNode rootNode = new DefaultMutableTreeNode("Top");
-
         DefaultMutableTreeNode A = new DefaultMutableTreeNode("A");
         DefaultMutableTreeNode B = new DefaultMutableTreeNode("B");
-
         DefaultMutableTreeNode A1 = new DefaultMutableTreeNode("A1");
         DefaultMutableTreeNode A2 = new DefaultMutableTreeNode("A2");
         DefaultMutableTreeNode A3 = new DefaultMutableTreeNode("A3");
-
         DefaultMutableTreeNode B1 = new DefaultMutableTreeNode("B1");
         DefaultMutableTreeNode B2 = new DefaultMutableTreeNode("B2");
         DefaultMutableTreeNode B3 = new DefaultMutableTreeNode("B3");
